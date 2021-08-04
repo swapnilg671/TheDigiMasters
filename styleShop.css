@@ -1,0 +1,70 @@
+.p{
+    text-align: justify;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #fcb4fcce;
+    text-align: center;
+    border-radius: .3rem;
+  }
+  .bg1{
+     background-color: rgba(151, 229, 151, 0.836);
+      background-image: url("src/images/jumbotron.jpg");
+      background-size: auto;
+
+  }
+  .section-light{
+    background-color: #fafafa;
+    padding: 2rem;
+}
+
+  .section-light1{
+      background-color: #fcb4fcce;
+      padding: 2rem;
+    
+  }
+  .sectiondark{
+      background-color: #cccccc;
+      padding:2rem;
+
+  }
+  .meditating-1{
+text-align: justify;
+padding:1rem;
+  }
+  .exploreMore-wrapper{
+      margin-top: 20px;
+      padding: 2rem;
+  }
+  .exploreMore-button{
+      background-color: red;
+      color: white;
+      display: block;
+      margin:auto;
+      
+  }
+  .modal-title{
+margin:auto;
+
+  }
+.modalFormWrapper{
+    padding: 1rem;
+}
+.container{
+    margin:auto;
+    padding: 1.5rem;
+}
+.imgcenter{
+    display:block;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.btncenter{
+    display:block;
+    margin:auto;
+    margin: top 15px;
+    margin-bottom: 20px;
+}
+ 
