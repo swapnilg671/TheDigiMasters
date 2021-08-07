@@ -46,7 +46,7 @@ img{
 }
 .table1{
     background: linear-gradient(to left,#00ccff, #cc99ff);
-    width: 480;
+    width: 100%;
     box-shadow: 2px 3px 2px  purple;
     } 
 body{
@@ -56,6 +56,12 @@ body{
 text-align: justify;*/
 line-height:1em;
 
+}
+.logo{
+    height: 5%;
+    width:10vw;
+    margin: 3px;
+    padding:1px;
 }
 #order{
     text-align: left;

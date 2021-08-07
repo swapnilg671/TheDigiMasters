@@ -1,20 +1,29 @@
-.container{
-    background-color: rgb(17, 219, 84);
-    height: 5rem;
-    margin:auto;
+*{
+margin:1.5px;
+padding: 1px;
+}
+body{
+    background-color: #ffffff;
+}
+.bgim{
+    height: 100vh;
+    background-image: -webkit-linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6); 
+    /*background-image: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6), url("https://freeimage.host/i/Rd8HN4");*/
+    background-image: linear-gradient(rgba(0, 105, 233,0.8),rgba(0,105,233,0.8)), url("https://iili.io/Rd8HN4.jpg");
+    background-position: center;
+    background-size: cover;
 
 }
-.container-fluid{
-    background-color: rgb(15, 104, 74);
-    height:3rem;
-    margin:auto;
+.nav-bar{
+    display: flex;
+
 }
-.row{
-    background-color: burlywood;
-    height: 4.7rem;
+.navbar-left{
+    flex-basis: 70%;
+    background: #fff;
+
 }
-[class*="col-"]{
-    background-color: #3fda54;
-    height: 4.2 rem;
-    border:2px solid rgba(0,0,0,0.3);
+.navbar-right{
+    flex-basis: 30%;
+    background-color: #fff;
 }
