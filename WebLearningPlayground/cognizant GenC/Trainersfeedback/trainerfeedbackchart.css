@@ -1,0 +1,82 @@
+h1{
+      
+    color: #FF00FF;
+    font-style: italic;
+    text-align: center
+    
+      
+ }
+
+ table{
+  
+     background-color: #F0F0F0;
+     margin-left: 35%;
+     text-align: left;
+     
+
+ }
+ 
+ td{
+ 
+     text-align: center;
+ 
+ }
+ 
+ caption {
+ 	
+ 	text-align: left;
+ 	font-weight: bold;
+ 	
+ 	
+ }
+ 
+ 
+ .theader {
+ 	
+ 	 color: white;
+ 	 background-color: #800000;
+ 	
+ }
+ 
+ .tr1{
+     
+ 	 background-color: #ff0080;
+ 
+     
+ }
+ 
+ .tr2{
+     
+ 	 background-color: aqua; 
+ 
+     
+ }
+ 
+ #ex1, #vg1{
+     
+ 	 background-color:  #00ff00;
+ 
+     
+ }
+ 
+ #go1{
+     
+     background-color:  #ffff00;
+ 
+     
+ }
+ 
+ #av1{
+     
+ 	 background-color: #d3d3d3;
+ 	 color:#ffffff;
+ 
+     
+ }
+ 
+  #ba1{
+      
+    background-color:  #ff0000;
+    color:#ffffff;
+      
+  }
