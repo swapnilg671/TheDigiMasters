@@ -122,3 +122,13 @@ console.log(a);
 
                            // html selector //
 
+console.log('html Selector')
+//single element selector 
+let idSelector= document.getElementById('name');
+console.log(idSelector);
+let classSelector= document.getElementByClassName('child');
+console.log(classSelector);
+
+classSelector.style.color= 'red';
+
+

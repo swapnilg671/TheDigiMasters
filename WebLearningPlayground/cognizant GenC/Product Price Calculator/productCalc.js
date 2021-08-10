@@ -1,0 +1,1 @@
+let productPrice=document.getelement
