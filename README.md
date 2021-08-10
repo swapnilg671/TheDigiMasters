@@ -12,9 +12,9 @@
 
 ## what You'll get in this Repo 🚀
   ### For Beginners () 
-*Samples of Html websites and Half-brewed codes to contribute
-*Beginner Friendly
-*Getting Started with HTML
+..*Samples of Html websites and Half-brewed codes to contribute
+..*Beginner Friendly
+ *Getting Started with HTML
 *inline CSS
 *Seprate CSS file
 *JS file
