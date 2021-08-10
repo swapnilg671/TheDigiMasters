@@ -98,3 +98,27 @@ function createCircle(radius){
     const circle2= createCircle(2);
     console.log(circle2);
 
+                            //JavaScript Document
+console.log('JavaScript Dom Component ')
+let dom=document;
+console.log(dom);//the whole html document can be accessed as object
+let a=document;
+a= document.all;//gives an array of html documents
+a= document.body;
+a=document.forms[0];
+a=document.scripts;
+a= document.links;
+
+//a=document.images;
+
+
+Array.from(a).forEach(function(element){
+   console.log(element);
+   //document.write(element);// used to write results in html
+
+}); // it will create an array from a, takes all its element in a function that function will go into forEach that will iterates all the element and print the elements in the console
+console.log(a);
+
+
+                           // html selector //
+
