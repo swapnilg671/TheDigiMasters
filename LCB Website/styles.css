@@ -1,0 +1,142 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color : #fff;
+
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+nav{
+   position: fixed;
+   width: 92%;
+   padding: 2vw 4vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#contactButton:hover{
+    background-color: green;
+}
+
+nav:hover #navBottom{
+    background-color: red;
+    bottom: -100%;
+    transition: all ease-out 0.65s;
+}
+
+#navPart2{
+    display: flex;
+    gap:2vw;
+}
+
+#navPart2 h4{
+    font-size: 0.8VW;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#navBottom{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    bottom: 0%;
+    /* bottom: -100%; */
+    border-bottom: 2px solid white;
+}
+
+
+
+
+#page1{
+  height: 100vh;
+  width: 100%;
+  background-color: black; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+#page1 h1 svg{
+    width: 8vw;
+    height: 8vw;
+
+}
+#page1 h1 img{
+    width: 80px;
+    height: 80px;
+}
+
+
+#page1 h1{
+    font-size: 8.5vw;
+    line-height: 8.5vw;
+    text-transform: uppercase ;
+    font-weight: 900;
+    display: flex;
+
+}
+
+#page1 p{
+    text-align: center;
+    font-weight: 500;
+}
+
+.subtitle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.subtitle-container button{
+ background-color: green;
+ padding: 10px;
+ margin:20px;
+ border-radius: 50px;
+}
+
+
+
+#chipContainer{
+     display: flex;
+     gap:5px;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap; 
+}
+
+
+#chipContainer h4{
+    font-weight: 400;
+    font-weight: 1vw;
+    padding: 8px 12px;
+    margin: 4px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+#chipContainer h4:nth-last-child(2){
+    border: none;
+    padding: 2px;
+    margin-top: 0.5vw;
+}
+#chipContainer h4:nth-child(3){
+    background-color: green;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;  
+  }
